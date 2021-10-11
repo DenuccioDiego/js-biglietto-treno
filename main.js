@@ -35,11 +35,11 @@ else if (età > 65){
 }
 
 else {
-     var prezzoFinale = prezzoBase ;
+     var prezzoFinale = prezzoBase;
 
 }
 
-document.getElementById("prezzo_biglietto").innerHTML = prezzoFinale;
+document.getElementById("prezzo_biglietto").innerHTML = prezzoFinale.toFixed(2);
 
 
 
