@@ -23,12 +23,13 @@ if(isNaN(età)){
 
 let prezzoBase = distanza * 0.21;
 
+
 if (età < 18){
      var prezzoFinale = prezzoBase - (prezzoBase * 0.20);
      
 }
 
-if (età > 65){
+else if (età > 65){
      var prezzoFinale = prezzoBase - (prezzoBase * 0.40);
 
 }
