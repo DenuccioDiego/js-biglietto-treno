@@ -1,10 +1,10 @@
 // ---------//
 // Prima condizine
 // ---------//
-// let distanza = Number(prompt('Quanti km vuoi percorrere?'));
+
 let distanza = 0
 
-while (isNaN(distanza)){
+while(isNaN(distanza)){
      alert('Occhio devi inserire un numero');
      distanza = Number(prompt('Quanti km vuoi percorrere?'))
 }
