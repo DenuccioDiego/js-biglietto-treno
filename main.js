@@ -4,7 +4,7 @@
 
 let distanza = Number(prompt('Quanti km vuoi percorrere?'))
 
-while(isNaN(distanza)){
+while ( (isNaN(distanza)) || (distanza <= 0) ) {
      alert('Occhio devi inserire un numero');
      distanza = Number(prompt('Quanti km vuoi percorrere?'))  
 }
@@ -14,7 +14,7 @@ while(isNaN(distanza)){
 // ---------//
 let età = Number(prompt('Qual\'é l\'etá del viaggiatore?'));
 
-while(isNaN(età)){
+while( (isNaN(età)) || (età <= 0) ) {
      alert('Occhio devi inserire un numero');
      età = Number(prompt('Qual\'é l\'etá del viaggiatore?'));
 }
