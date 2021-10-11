@@ -2,17 +2,17 @@
 // Prima condizine
 // ---------//
 
-let distanza = 0
+let distanza = Number(prompt('Quanti km vuoi percorrere?'))
 
 while(isNaN(distanza)){
      alert('Occhio devi inserire un numero');
-     distanza = Number(prompt('Quanti km vuoi percorrere?'))
+     distanza = Number(prompt('Quanti km vuoi percorrere?'))  
 }
 
 // ---------//
 // Seconda condizione
 // ---------//
-let età = 0
+let età = Number(prompt('Qual\'é l\'etá del viaggiatore?'));
 
 while(isNaN(età)){
      alert('Occhio devi inserire un numero');
