@@ -1,20 +1,22 @@
-
 // ---------//
 // Prima condizine
 // ---------//
-let distanza = prompt('Quanti km vuoi percorrere?');
+// let distanza = Number(prompt('Quanti km vuoi percorrere?'));
+let distanza = 0
 
-if(isNaN(distanza)){
+while (isNaN(distanza)){
      alert('Occhio devi inserire un numero');
+     distanza = Number(prompt('Quanti km vuoi percorrere?'))
 }
 
 // ---------//
 // Seconda condizione
 // ---------//
-let età = Number(prompt('Qual\'é l\'etá del viaggiatore?'));
+let età = 0
 
-if(isNaN(età)){
+while(isNaN(età)){
      alert('Occhio devi inserire un numero');
+     età = Number(prompt('Qual\'é l\'etá del viaggiatore?'));
 }
 
 // ---------//
@@ -22,20 +24,20 @@ if(isNaN(età)){
 // ---------//
 
 let prezzoBase = distanza * 0.21;
-
+let prezzoFinale = 0
 
 if (età < 18){
-     var prezzoFinale = prezzoBase - (prezzoBase * 0.20);
+     prezzoFinale = prezzoBase - (prezzoBase * 0.20);
      
 }
 
 else if (età > 65){
-     var prezzoFinale = prezzoBase - (prezzoBase * 0.40);
+     prezzoFinale = prezzoBase - (prezzoBase * 0.40);
 
 }
 
 else {
-     var prezzoFinale = prezzoBase;
+     prezzoFinale = prezzoBase;
 
 }
 
