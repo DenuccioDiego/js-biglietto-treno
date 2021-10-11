@@ -14,7 +14,12 @@ if(isNaN(età)){
 }
 
 
+let prezzoBase = distanza * 0.21;
 
+if (età < 18){
+     let prezzoScontatoUnder18 = prezzoBase - (prezzoBase * 0.20)
+     
+}
 
 
 
