@@ -27,12 +27,12 @@ let prezzoBase = distanza * 0.21;
 let prezzoFinale = 0
 
 if (età < 18){
-     prezzoFinale -= prezzoBase * .2
+     prezzoFinale = prezzoBase - (prezzoBase * .2)
      
 }
 
 else if (età > 65){
-     prezzoFinale -= prezzoBase * .4;
+     prezzoFinale = prezzoBase - (prezzoBase * .4);
 
 }
 
