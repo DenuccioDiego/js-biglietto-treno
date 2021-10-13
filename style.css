@@ -1,0 +1,73 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box; }
+
+body{
+     background-color: #b91450;   }
+
+h1{
+     color: white;
+     margin-top: 8rem; }
+
+.container{
+     width: 1100px;
+     margin: 2rem auto;
+     text-align: center;    }
+
+.form-row {
+     background-color: white;
+     padding: 2rem;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5px #6e6d6d;
+     display: flex;
+     flex-wrap: wrap;    }
+
+.w-100{
+     width: 100%; }
+
+.w-33{
+     width: calc(100% / 3); }
+
+.mt-3{
+     margin-top:3rem; }
+
+input,select {
+  border-radius: 5px;
+  padding: 0.25rem;
+  border: 2px solid palevioletred;   }
+
+.blocco_nascosto{
+     display: none;  }
+
+.risposta-row{
+     justify-content: space-around;
+     
+     padding: 2rem;
+     display: flex;
+     flex-wrap: wrap; 
+     border: 2px solid #808080;
+}
+
+.w-25{
+     width: calc(100% / 5) ;  }
+
+.w-20{
+     width: calc(100% / 6) ;  }
+
+#titolo_dettaglio {
+     text-align: left;
+     width: 100%;
+     padding-left: 22px;  }
+
+.container-biglietto{
+     background-color: white;
+}
+
+
+
+
+
+
+
+

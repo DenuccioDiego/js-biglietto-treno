@@ -5,21 +5,102 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>js-biglietto-treno</title>
+     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+     <div class="container">
+     
+          <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
-     <div id="prezzo_biglietto"></div>
+          <div class="form-row">
 
+               <div class="form-col w-33">
+                    <label for="full-name">Full name</label>
+                    <input type="text" name="full-name" id="full-name">
+               </div>
 
+               <div class="form-col w-33">
+                    <label for="distance">Distance</label>
+                    <input type="number" name="distance" id="distance">
+               </div>
 
+               <div class="form-col w-33">
+                    <label for="age">Age Group</label>
+                    <select name="age" id="age">
+                         <option value="minorenne">Minorenne</option>
+                         <option value="maggiorenne">Maggiorenne</option>
+                         <option value="over65">Over 65</option>
+                    </select>
+               </div>
 
+               <div class="w-100 mt-3">
 
+                    <button id="generate">Generate</button>
+     
+                    <button id="cancel">Cancel/Back</button>
+                    
+               </div>
 
+          </div>
+
+          <div class="blocco_nascosto">      
+               <h1>IL TUO BIGLIETTO</h1>
+
+               <div class="risposta-row">
+
+                    <div id="titolo_dettaglio">
+                    <h2>DETTAGLIO PASSEGGERI</h2>
+                    </div>
+
+                    <div class="w-25">
+                    <h3>NOME PASSEGGERO</h3> 
+                     
+                    <div id="nome_passegero">
+
+                    </div>
+                    </div>
+               
+                    <div class="w-20">
+                    <h4>Offerta</h4> 
+
+                    <div id="tipo_offerta">
+
+                    </div>
+                    </div>
+
+                    <div class="w-20">
+                    <h4>Carrozza</h4> 
+                    <div id="carrozza">
+
+                    </div>
+                    </div>
+
+                    <div class="w-20">
+                    <h4>Codice CP</h4> 
+
+                    <div id="codice_casuale">
+
+                    </div>
+                    </div>
+
+                    <div class="w-20">
+                         <h4>Costo biglietto</h4> 
+
+                         <div id="costo_biglietto">
+                         </div>
+                         
+                    </div>
+
+               </div>
+          </div>     
+
+     </div>
+
+     
 
 
      <script src="./main.js"></script>
-
 
 </body>
 </html>
